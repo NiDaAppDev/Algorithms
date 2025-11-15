@@ -1309,6 +1309,81 @@ j\quad s.t.\quad s\left(j\right)=\max\left\{ s\left(k\right)\lvert k<i\land a_{k
 
 \begin_layout Standard
 כלומר ישמור בכל תא את אינדקס האיבר בסדרה שקודם לאיבר הנוכחי בתת הסדרה הארוכה ביותר שמכילה את האיבר הנוכחי.
+\end_layout
+
+\begin_layout Standard
+התהליך יקרה במקביל ליצירת המערך 
+\begin_inset Formula $s$
+\end_inset
+
+ שהוגדר בסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- כאשר נגדיר 
+\begin_inset Formula $s\left(i\right)=s\left(j\right)+1$
+\end_inset
+
+,
+ נגדיר 
+\begin_inset Formula $M\left[i\right]=j$
+\end_inset
+
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -1377,6 +1452,248 @@ j\quad s.t.\quad s\left(j\right)=\max\left\{ s\left(k\right)\lvert k<i\land a_{k
 )
 \end_layout
 
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+חוקיות
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+נבחין כי האלגוריתם מחזיר מספר בין
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ל-
+\begin_inset Formula $n$
+\end_inset
+
+ (מאופן פעולתו),
+ ולכן בהכרח המספר יכול לתאר אורך חוקי של תת סדרה של איברי הקלט.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+אופטימליות
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+נוכיח אופטימליות באינדוקציה על אורך סדרת הקלט (נסמנו ב-
+\begin_inset Formula $n$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+בסיס
+\begin_inset Formula $\left(n=1\right)$
+\end_inset
+
+
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+האלגוריתם מוגדר להחזיר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+,
+ הלא הוא אורך הסדרה כולה,
+ ובמקרה זה באופן ריק אכן אורך הסדרה העולה המקסימלי.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+צעד
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+נניח כי הטענה מתקיימת לכל 
+\begin_inset Formula $i<n$
+\end_inset
+
+,
+ ונראה כי היא מתקיימת עבור 
+\begin_inset Formula $n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בהנתן סדרה באורך 
+\begin_inset Formula $n$
+\end_inset
+
+,
+ נתבונן בתת הסדרה שלה שמכילה את כל איבריה מלבד האחרון בה,
+ נסמנו 
+\begin_inset Formula $a_{n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מהנחת האינדוקציה,
+ הפעלת האלגוריתם על תת-סדרה זו תבנה מערך שסופר את אורכי תת הסדרות העולות של תת-סדרה זו,
+ כפי שהראינו בהגדרתו,
+\end_layout
+
+\begin_layout Standard
+ובהתייחסות לסדרה כולה,
+ האלגוריתם ישתמש במערך זה כדי למצוא את תת הסדרה הארוכה ביותר שנוכל להמשיך בעזרת האיבר 
+\begin_inset Formula $a_{n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בסיום מילוי הטבלה,
+ אם אורך תת הסדרה המסתיימת ב-
+\begin_inset Formula $a_{n}$
+\end_inset
+
+ הוא הגדול ביותר,
+ אכן נחזיר אורך זה.
+\end_layout
+
+\begin_layout Standard
+אחרת,
+ נחזיר את אורך תת הסדרה המקסימלית,
+ שאינה מסתיימת ב-
+\begin_inset Formula $a_{n}$
+\end_inset
+
+,
+ והיא אכן המקסימלית מהנחת האינדוקציה.
+\end_layout
+
 \begin_layout Section*
 שאלה
 \family roman
@@ -1425,6 +1742,27 @@ j\quad s.t.\quad s\left(j\right)=\max\left\{ s\left(k\right)\lvert k<i\land a_{k
 
 \end_layout
 
+\begin_layout Standard
+בהנתן קודקוד 
+\begin_inset Formula $v$
+\end_inset
+
+,
+ אוסף תתי הבעיות הוא מציאת המסלולים המקסימליים מכל קודקוד 
+\begin_inset Formula $u$
+\end_inset
+
+ שקיימת צלע 
+\begin_inset Formula $\left(v,u\right)$
+\end_inset
+
+ אליו ועד 
+\begin_inset Formula $t$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsection*
 (
 \numeric on
@@ -1435,6 +1773,243 @@ j\quad s.t.\quad s\left(j\right)=\max\left\{ s\left(k\right)\lvert k<i\land a_{k
 
 \begin_layout Standard
 \begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל קודקוד 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ נסמן את קבוצת הקודקודים שיוצאת מ-
+\begin_inset Formula $v$
+\end_inset
+
+ צלע אליהם ב- 
+\begin_inset Formula $Neighbors\left(v\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $u\in Neighbors\left(v\right)$
+\end_inset
+
+ נסמן את משקל המסלול מ- 
+\begin_inset Formula $v$
+\end_inset
+
+ ל-
+\begin_inset Formula $u$
+\end_inset
+
+ ב-
+\begin_inset Formula $w_{u}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+אם 
+\begin_inset Formula $v=t$
+\end_inset
+
+,
+ באופן ריק המסלול הכי ארוך ממנו לעצמו הוא באורך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+,
+ ולכן נחזיר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+\end_layout
+
+\begin_layout Itemize
+אם ל-
+\begin_inset Formula $v$
+\end_inset
+
+ יש שכנים,
+ נגדיר את ערכו של 
+\begin_inset Formula $v$
+\end_inset
+
+ להיות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ועוד אורך המסלול מהקודקוד עבורו המשקל המסלול ל-
+\begin_inset Formula $t$
+\end_inset
+
+ מקסימלי מבין שכני 
+\begin_inset Formula $v$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+אם ל-
+\begin_inset Formula $v$
+\end_inset
+
+ אין שכנים,
+ ועדיין לא הגענו ל-
+\begin_inset Formula $t$
+\end_inset
+
+ (בו 
+\begin_inset Quotes eld
+\end_inset
+
+טיפלנו
+\begin_inset Quotes erd
+\end_inset
+
+ בסעיף הראשון),
+ אזי לא קיים מסלול מ-
+\begin_inset Formula $v$
+\end_inset
+
+ ל-
+\begin_inset Formula $t$
+\end_inset
+
+,
+ ולכן נחזיר 
+\begin_inset Formula $-\infty$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s\left(v\right)=\begin{cases}
+0 & v=t\\
+1+s\left(u\right)\quad s.t.\quad w_{t}=\max\left\{ w_{u}+s\left(u\right)\lvert u\in Neighbors\left(v\right)\right\}  & Neighbors\left(v\right)\ne\emptyset\\
+-\infty & Neighbors\left(v\right)=\emptyset
+\end{cases}
+\]
+
 \end_inset
 
 
@@ -1455,6 +2030,89 @@ j\quad s.t.\quad s\left(j\right)=\max\left\{ s\left(k\right)\lvert k<i\land a_{k
 
 \end_layout
 
+\begin_layout Standard
+נבצע מיון טופולוגי לקודקודים.
+\end_layout
+
+\begin_layout Standard
+נרצה לחשב את המשקל המקסימלי של המסלולים מקודקוד 
+\begin_inset Formula $v$
+\end_inset
+
+ ל
+\begin_inset Formula $t$
+\end_inset
+
+,
+ ולשמור במערך לכל 
+\begin_inset Formula $v$
+\end_inset
+
+ את המשקל הזה שהוא 
+\begin_inset Formula $s(v)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לשם כך נעבור עליהם לפי סדר הפוך מהמיון.
+\end_layout
+
+\begin_layout Standard
+בצורה זו,
+ כאשר ניתקל בקודקוד חדש,
+ נוכל לחשב את המשקל המקסימלי למסלול ממנו ל
+\begin_inset Formula $t$
+\end_inset
+
+ לפי אופן פעולת האלגוריתם,
+\end_layout
+
+\begin_layout Standard
+כלומר ניקח את המקסימום מבין הקודקודים הבאים במסלול ל
+\begin_inset Formula $t$
+\end_inset
+
+ ועוד הצלע המחברת מ
+\begin_inset Formula $v$
+\end_inset
+
+ לאותו שכן במסלול.
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+ כאשר נוסיף את המשקל,
+ הרי שבחרנו את השכן שייתן את המשקל המירבי.
+\end_layout
+
+\begin_layout Standard
+לכן נוכל גם להוסיף את הקודקוד הזה שהוא הבא במסלול שנותן את המשקל המירבי,
+ ונשמור אותו בתור ”הבא בתור“ במסלול המיטבי לאותו קודקוד.
+\end_layout
+
+\begin_layout Standard
+באופן איטרטיבי,
+ נקבל לכל קודקוד את המסלול עם המשקל הכבד ביותר במערך אחד,
+ ובמערך שני,
+ את הקודקוד הבא על אותו מסלול ל
+\begin_inset Formula $t$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נבחר קודקוד 
+\begin_inset Formula $v$
+\end_inset
+
+ כלשהו במערך עם הקודקודים הקודמים,
+ ונוכל לשחזר בדיוק את המסלול המיטבי,
+ אנו יודעים כמה קודקודים מופיעים בו עד לt ולכן גם נוכל לשחזר את האורך של אותו מסלול.
+\end_layout
+
 \begin_layout Subsection*
 (
 \numeric on
@@ -1468,6 +2126,36 @@ j\quad s.t.\quad s\left(j\right)=\max\left\{ s\left(k\right)\lvert k<i\land a_{k
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+המיון הטופולוגי אורך 
+\begin_inset Formula $O\left(\left|V\right|+\left|E\right|\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מילוי המערך הראשון עובר על כל קודקוד וצלע בגרף פעם אחת,
+ כמו גם המערך השני שמוצא את הקודקוד הבא במסלול לפי האלגוריתם בהתבסס על המערך הקודם והאלגוריתם.
+\end_layout
+
+\begin_layout Standard
+כל אחד מהם אורך 
+\begin_inset Formula $O\left(\left|V\right|+\left|E\right|\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ סך ריצת האלגוריתם אורך 
+\begin_inset Formula $O\left(\left|V\right|+\left|E\right|\right)$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section*
@@ -1518,6 +2206,10 @@ j\quad s.t.\quad s\left(j\right)=\max\left\{ s\left(k\right)\lvert k<i\land a_{k
 
 \end_layout
 
+\begin_layout Standard
+קבוצת הקודקודים הבלתי תלויים שמשקלם מקסימלי בתתי העץ הימני והשמאלי של כל קודקוד.
+\end_layout
+
 \begin_layout Subsection*
 (
 \numeric on
@@ -1528,6 +2220,49 @@ j\quad s.t.\quad s\left(j\right)=\max\left\{ s\left(k\right)\lvert k<i\land a_{k
 
 \begin_layout Standard
 \begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל קודקוד 
+\begin_inset Formula $v$
+\end_inset
+
+ נסמן ב-
+\begin_inset Formula $v_{R}$
+\end_inset
+
+ את בנו הימני וב-
+\begin_inset Formula $v_{L}$
+\end_inset
+
+ את בנו השמאלי.
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+ לכל 
+\begin_inset Formula $v$
+\end_inset
+
+ נסמן ב-
+\begin_inset Formula $T_{v}$
+\end_inset
+
+את העץ שהוא שורשו.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s\left(T_{v}\right)=\begin{cases}
+\omega\left(v\right) & v\,has\,no\,children\\
+\max\left\{ \omega\left(v\right)+s\left(T_{v_{R_{R}}}\right)+s\left(T_{v_{R_{L}}}\right)+s\left(T_{v_{L_{R}}}\right)+s\left(T_{v_{L_{L}}}\right),\max\left\{ T_{v_{R}}\setminus\left\{ v_{R}\right\} ,T_{v_{R}}\right\} +\max\left\{ T_{v_{L}}\setminus\left\{ v_{L}\right\} ,T_{v_{L}}\right\} \right\}  & otherwise
+\end{cases}
+\]
+
 \end_inset
 
 
