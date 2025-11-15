@@ -1,0 +1,1884 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children no
+\language hebrew
+\language_package default
+\inputencoding auto-legacy
+\fontencoding auto
+\font_roman "default" "David"
+\font_sans "default" "David"
+\font_typewriter "default" "David"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "../../../../../../texlive/MacrosStandard.lyx"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+אלגוריתמים | תרגיל בית מס'
+\family roman
+\shape up
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם:
+ תומר לוי | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+323961854
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם:
+ ניצן דלומי | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+212071914
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+1
+\numeric off
+) אוסף תתי הבעיות 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בהנתן רצף ספרות באורך 
+\begin_inset Formula $i\in\left[n\right]$
+\end_inset
+
+,
+ נרצה למצוא את מספר הדרכים לפענח רצף זה (לכל 
+\begin_inset Formula $i\in\left[n\right]$
+\end_inset
+
+ זוהי תת-בעיה של הבעיה הראשונית).
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+2
+\numeric off
+) נוסחת הרקורסיה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן ב-
+\begin_inset Formula $s\left(i\right)$
+\end_inset
+
+ את מספר הדרכים לפענח רצף ספרות שאורכו 
+\begin_inset Formula $i$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+ נסמן את הספרה במקום ה-
+\begin_inset Formula $i$
+\end_inset
+
+ (בספירה משמאל לימין) ברצף הספרות ב-
+\begin_inset Formula $x_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+המקרים האפשריים:
+\end_layout
+
+\begin_layout Itemize
+באם 
+\begin_inset Formula $i\in\left\{ 0,1\right\} $
+\end_inset
+
+ ,
+ נחזיר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+,
+ שכן משמעות הדבר היא שרצף הספרות ריק או מכיל ספרה יחידה,
+ וישנה רק דרך אחת לפענח רצף זה כמילה,
+ באופן ריק.
+\end_layout
+
+\begin_layout Itemize
+באם 
+\begin_inset Formula $2\le i$
+\end_inset
+
+ וגם 
+\begin_inset Formula $x_{i-1}\ne0$
+\end_inset
+
+ וגם 
+\begin_inset Formula $x_{i-1}\cdot10+x_{i}\le26$
+\end_inset
+
+,
+ משמעות הדבר היא כי אורך רצף הספרות שלנו הוא לכל הפחות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+,
+ ונוכל להתבונן בזוג הספרות הכי ימניות שבו.
+\begin_inset Newline newline
+\end_inset
+
+בנוסף,
+ מהיות 
+\begin_inset Formula $x_{i-1}\ne0$
+\end_inset
+
+,
+ נובע כי זוג הספרות מייצגות מספר דו-ספרתי תקין.
+ אם נוסף לזאת מתקיים גם 
+\begin_inset Formula $x_{i-1}\cdot10+x_{i}\le26$
+\end_inset
+
+,
+ אזי נסיק מכך כי ניתן לפרש את זוג הספרות
+\begin_inset Newline newline
+\end_inset
+
+כאות יחידה.
+ במצב כזה,
+ ניתן לפענח את הרצף בשתי דרכים אפשריות:
+ כזו שבה מתייחסים לזוג הספרות הללו כאות יחידה,
+ או כשתי אותיות שונות.
+\begin_inset Newline newline
+\end_inset
+
+על כן,
+ נחזיר 
+\begin_inset Formula $s\left(i-1\right)+s\left(i-2\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+באם 
+\begin_inset Formula $2\le i$
+\end_inset
+
+ וגם 
+\begin_inset Formula $x_{i}=0$
+\end_inset
+
+,
+ ישנה דרך יחידה לפענח את זוג הספרות הכי ימניות ברצף הספרות,
+ והיא כאות יחידה.
+\begin_inset Newline newline
+\end_inset
+
+על כן,
+ נחזיר 
+\begin_inset Formula $s\left(i-2\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+בכל מקרה אחר,
+ נחזיר את 
+\begin_inset Formula $s\left(i-1\right)$
+\end_inset
+
+,
+ כיוון שישנה דרך יחידה לפרש בה את משמעותה של 
+\begin_inset Formula $x_{i}$
+\end_inset
+
+ ביחס לשאר הרצף.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ נגדיר את נוסחת הרקורסיה כדלהלן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s\left(i\right)=\begin{cases}
+1 & i\in\left\{ 0,1\right\} \\
+s\left(i-1\right)+s\left(i-2\right) & 2\le i\land x_{i-1}\ne0\land x_{i-1}\cdot10+x_{i}\le26\\
+s\left(i-2\right) & 2\le i\land x_{i}=0\\
+s\left(i-1\right) & otherwise
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+3
+\numeric off
+) מילוי הטבלה וחילוץ הפתרון
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+תיאור הטבלה וסדר המילוי שלה
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+נגדיר מערך באורך 
+\begin_inset Formula $n$
+\end_inset
+
+ (הלא הוא אורך רצף הספרות הנתון),
+ ונגדיר את האיבר הראשון בו להיות בעל הערך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+כעת,
+ נמלא את המשך המערך לפי נוסחת הרקורסיה (בסדר עולה על האינדקס במערך).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+חילוץ הפתרון
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+בסיום מילוי המערך,
+ נחזיר את הערך שהתקבל בתאו האחרון.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+4
+\numeric off
+) ניתוח זמן ריצה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+למילוי הטבלה נדרשות 
+\begin_inset Formula $O\left(n\right)$
+\end_inset
+
+ קריאות לנוסחת הרקורסיה,
+ כל אחת מהן מבצעת 
+\begin_inset Formula $O\left(1\right)$
+\end_inset
+
+ פעולות.
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+ חילוץ הפתרון מתבצע בשליפת ערכו של תא במערך,
+ ולכן ב-
+\begin_inset Formula $O\left(1\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ סך זמן הריצה הנדרש לביצוע האלגוריתם הנו:
+ 
+\begin_inset Formula $O\left(n\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשים לב שנוכל לפתור את הבעיה בכך שנגדיר לכל קלט 
+\begin_inset Formula $S$
+\end_inset
+
+ את המחרוזת 
+\begin_inset Formula $S_{r}$
+\end_inset
+
+,
+ הלא היא ההיפוך שלה,
+ ולאחר מכן נריץ על שתיהן
+\end_layout
+
+\begin_layout Standard
+את האלגוריתם מהכיתה למציאת תת-מחרוזות המשותפות לשתיהן.
+\end_layout
+
+\begin_layout Standard
+הפתרון אכן יהיה פלינדרום מהנימוק הבא:
+\end_layout
+
+\begin_layout Standard
+בהנתן זוג אותיות בפתרון,
+ 
+\begin_inset Formula $x_{p},x_{p+1}$
+\end_inset
+
+,
+ נבחין כי מהיות 
+\begin_inset Formula $x_{p+1}$
+\end_inset
+
+ מימין ל-
+\begin_inset Formula $x_{p}$
+\end_inset
+
+,
+ נובע כי ב-
+\begin_inset Formula $S_{r}$
+\end_inset
+
+ היא נמצאת מימין ל-
+\begin_inset Formula $x_{p}$
+\end_inset
+
+,
+ ולכן ב-
+\begin_inset Formula $S$
+\end_inset
+
+ היא
+\end_layout
+
+\begin_layout Standard
+נמצאת משמאל ל-
+\begin_inset Formula $x_{p}$
+\end_inset
+
+ (מהגדרת היפוך המחרוזת)
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+ מהיותה בפתרון,
+ נובע כי אותה האות 
+\begin_inset Formula $x_{p+1}$
+\end_inset
+
+ נמצאת מימין ל-
+\begin_inset Formula $x_{p}$
+\end_inset
+
+ גם ב-
+\begin_inset Formula $S$
+\end_inset
+
+ (אחרת היא לא היתה משותפת לשתי המחרוזות).
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ הראינו בכך כי 
+\begin_inset Formula $x_{P+1}$
+\end_inset
+
+בהכרח נמצא מימין ל-
+\begin_inset Formula $x_{p}$
+\end_inset
+
+ וגם משמאל לה ב-
+\begin_inset Formula $S$
+\end_inset
+
+,
+ לכן גם ב-
+\begin_inset Formula $S_{r}$
+\end_inset
+
+ (מהגדרת היפוך המחרוזת),
+ ולכן בפתרון
+\end_layout
+
+\begin_layout Standard
+בהכרח קיים הרצף 
+\begin_inset Formula $x_{p+1},x_{p},x_{p+1}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+היות שאנו פועלים לפי האלגוריתם הדינמי למציאת תמ
+\begin_inset Quotes erd
+\end_inset
+
+א מהתרגול,
+ ניסוח תת הבעיות,
+ נוסחת הרקורסיה ותיאור הטבלה זהים במקרה זה.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+4
+\numeric off
+) ניתוח זמן ריצה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבחין כי במקרה זה אנו בונים טבלה בגודל 
+\begin_inset Formula $n\times n=O\left(n^{2}\right)$
+\end_inset
+
+,
+ והשלב ההתחלתי שבו אנו הופכים את המחרוזת יכול להתבצע ב-
+\begin_inset Formula $O\left(n\right)$
+\end_inset
+
+ פעולות.
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ סך הפעולות הנדרשות לביצוע האלגוריתם,
+ מכך וממה שראינו בתרגול,
+ הינו 
+\begin_inset Formula $O\left(n^{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+1
+\numeric off
+)
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+1
+\numeric off
+) אוסף תתי הבעיות 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $i\in\left[n\right]$
+\end_inset
+
+,
+ נמצא מהו אורך תת הסדרה העולה המקסימלי מבין איברי 
+\begin_inset Formula $\left(a_{1},\ldots,a_{i}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+2
+\numeric off
+) נוסחת הרקורסיה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+באם 
+\begin_inset Formula $i=1$
+\end_inset
+
+,
+ משמעות הדבר היא שאנו דנים בסדרה בת איבר אחד,
+ ולכן באופן ריק תת הסדרה העולה הארוכה ביותר שלה
+\begin_inset Newline newline
+\end_inset
+
+היא באורך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+(והיא הסדרה המכילה את האיבר היחיד הזה)
+\end_layout
+
+\begin_layout Itemize
+אחרת,
+ נחזיר את אורך תת הסדרה העולה החוקית המסתיימת ב
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ הארוכה ביותר שנוכל להרכיב מהאיברים 
+\begin_inset Formula $\left(a_{1}\ldots,a_{i}\right)$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+הלא הוא אורך תת הסדרה המדוברת ללא 
+\begin_inset Formula $a_{j}$
+\end_inset
+
+,
+ ועוד
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s\left(i\right)=\begin{cases}
+1 & i=1\\
+s(j)+1\quad s.t.\quad s\left(j\right)=\max\left\{ s\left(k\right)\lvert k<i\land a_{k}<a_{i}\right\}  & otherwise
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+3
+\numeric off
+) מילוי הטבלה וחילוץ הפתרון
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+מילוי הטבלה
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+נגדיר מערך באורך 
+\begin_inset Formula $n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נמלא את האיבר הראשון בו בערך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+כעת,
+ לכל 
+\begin_inset Formula $i\in\left[n\right]$
+\end_inset
+
+,
+ נגדיר את התא ה
+\begin_inset Formula $i$
+\end_inset
+
+ במערך לפי נוסחת הרקורסיה.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+חילוץ הפתרון
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+נעבור על המערך המלא ונמצא את הערך המקסימלי המופיע בו,
+ הלא הוא הפתרון לבעיה - אורך תת הסדרה הארוכה ביותר מבין איברי הקלט.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+4
+\numeric off
+) ניתוח זמן ריצה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבחין כי אנו ממלאים 
+\begin_inset Formula $O\left(n\right)$
+\end_inset
+
+ תאים,
+ כאשר מילוי כל תא לוקח 
+\begin_inset Formula $O\left(n\right)$
+\end_inset
+
+ פעולות לשם מציאת המקסימום החוקי מבין התאים הקודמים לו,
+ ולכן
+\end_layout
+
+\begin_layout Standard
+סך הליך מילוי המארך אורך 
+\begin_inset Formula $O\left(n^{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+ חילוץ הפתרון דורש מעבר יחיד על איברי המערך למציאת התא בעל הערך המקסימלי,
+ ולכן אורך 
+\begin_inset Formula $O\left(n\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ סך פעולת האלגוריתם אורך 
+\begin_inset Formula $O\left(n^{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+2
+\numeric off
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בשלב מילוי הטבלה,
+ נוסיף מערך נוסף 
+\begin_inset Formula $M$
+\end_inset
+
+ לצד המערך שהגדרנו בסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+מערך שתוכנו יוגדר לפי נוסחת הרקורסיה הבאה:
+\begin_inset Formula 
+\[
+M\left[i\right]=\begin{cases}
+1 & i=1\\
+j\quad s.t.\quad s\left(j\right)=\max\left\{ s\left(k\right)\lvert k<i\land a_{k}<a_{i}\right\}  & otherwise
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר ישמור בכל תא את אינדקס האיבר בסדרה שקודם לאיבר הנוכחי בתת הסדרה הארוכה ביותר שמכילה את האיבר הנוכחי.
+\end_layout
+
+\begin_layout Standard
+התהליך יקרה במקביל ליצירת המערך 
+\begin_inset Formula $s$
+\end_inset
+
+ שהוגדר בסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- כאשר נגדיר 
+\begin_inset Formula $s\left(i\right)=s\left(j\right)+1$
+\end_inset
+
+,
+ נגדיר 
+\begin_inset Formula $M\left[i\right]=j$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בשלב חילוץ הפתרון,
+ לאחר שמצאנו את האורך המקסימלי,
+ נלך למערך 
+\begin_inset Formula $M$
+\end_inset
+
+ שהגדרנו ונמצא במעין הליך רקורסיבי את איברי הסדרה מסופה לתחילתה,
+\end_layout
+
+\begin_layout Standard
+עד אשר נגיע לאיבר שערכו במערך 
+\begin_inset Formula $s$
+\end_inset
+
+ הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+,
+ והוא האיבר הראשון בסדרה.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+3
+\numeric off
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+חוקיות
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+נבחין כי האלגוריתם מחזיר מספר בין
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ל-
+\begin_inset Formula $n$
+\end_inset
+
+ (מאופן פעולתו),
+ ולכן בהכרח המספר יכול לתאר אורך חוקי של תת סדרה של איברי הקלט.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+אופטימליות
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+נוכיח אופטימליות באינדוקציה על אורך סדרת הקלט (נסמנו ב-
+\begin_inset Formula $n$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+בסיס
+\begin_inset Formula $\left(n=1\right)$
+\end_inset
+
+
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+האלגוריתם מוגדר להחזיר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+,
+ הלא הוא אורך הסדרה כולה,
+ ובמקרה זה באופן ריק אכן אורך הסדרה העולה המקסימלי.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+צעד
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+נניח כי הטענה מתקיימת לכל 
+\begin_inset Formula $i<n$
+\end_inset
+
+,
+ ונראה כי היא מתקיימת עבור 
+\begin_inset Formula $n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בהנתן סדרה באורך 
+\begin_inset Formula $n$
+\end_inset
+
+,
+ נתבונן בתת הסדרה שלה שמכילה את כל איבריה מלבד האחרון בה,
+ נסמנו 
+\begin_inset Formula $a_{n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מהנחת האינדוקציה,
+ הפעלת האלגוריתם על תת-סדרה זו תבנה מערך שסופר את אורכי תת הסדרות העולות של תת-סדרה זו,
+ כפי שהראינו בהגדרתו,
+\end_layout
+
+\begin_layout Standard
+ובהתייחסות לסדרה כולה,
+ האלגוריתם ישתמש במערך זה כדי למצוא את תת הסדרה הארוכה ביותר שנוכל להמשיך בעזרת האיבר 
+\begin_inset Formula $a_{n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בסיום מילוי הטבלה,
+ אם אורך תת הסדרה המסתיימת ב-
+\begin_inset Formula $a_{n}$
+\end_inset
+
+ הוא הגדול ביותר,
+ אכן נחזיר אורך זה.
+\end_layout
+
+\begin_layout Standard
+אחרת,
+ נחזיר את אורך תת הסדרה המקסימלית,
+ שאינה מסתיימת ב-
+\begin_inset Formula $a_{n}$
+\end_inset
+
+,
+ והיא אכן המקסימלית מהנחת האינדוקציה.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+1
+\numeric off
+) אוסף תתי הבעיות 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+2
+\numeric off
+) נוסחת הרקורסיה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+3
+\numeric off
+) מילוי הטבלה וחילוץ הפתרון
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+4
+\numeric off
+) ניתוח זמן ריצה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+1
+\numeric off
+) אוסף תתי הבעיות 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+2
+\numeric off
+) נוסחת הרקורסיה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+3
+\numeric off
+) מילוי הטבלה וחילוץ הפתרון
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+4
+\numeric off
+) ניתוח זמן ריצה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
