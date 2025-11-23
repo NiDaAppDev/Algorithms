@@ -1,0 +1,769 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children no
+\language hebrew
+\language_package default
+\inputencoding auto-legacy
+\fontencoding auto
+\font_roman "default" "David"
+\font_sans "default" "David"
+\font_typewriter "default" "David"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "../../../../../../../texlive/MacrosStandard.lyx"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+אלגוריתמים | תרגיל בית מס'
+\family roman
+\shape up
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם:
+ תומר לוי | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+323961854
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם:
+ תומר לוי | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+323961854
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+1
+\numeric off
+) תתי הבעיות
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+2
+\numeric off
+) נוסחת הרקורסיה
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+3
+\numeric off
+) הגדרת הטבלה
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+4
+\numeric off
+) חילוץ הפתרון
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+5
+\numeric off
+) זמן ריצה
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+1
+\numeric off
+) תתי הבעיות
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $f\left(i,t\right)$
+\end_inset
+
+ = הזמן המינימלי להגיע לנתיב ה
+\begin_inset Formula $i$
+\end_inset
+
+ בזמן ה
+\begin_inset Formula $t$
+\end_inset
+
+ בבטחה,
+ או 
+\begin_inset Formula $\infty$
+\end_inset
+
+ אם אין זמן כזה.
+\end_layout
+
+\begin_layout Standard
+נפתור לכל 
+\begin_inset Formula $i\in\left[n\right]$
+\end_inset
+
+,
+ ולכל 
+\begin_inset Formula $t\in\left[M\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+2
+\numeric off
+) נוסחת הרקורסיה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מקרי בסיס - 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f\left(1,0\right)=0$
+\end_inset
+
+,
+ כלומר החתול התחיל בנתיב הראשון בזמן 
+\begin_inset Formula $0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f\left(i,0\right)=\infty$
+\end_inset
+
+ לכל 
+\begin_inset Formula $i\neq1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נוסחת הרקורסיה - 
+\begin_inset Formula 
+\[
+f\left(i,t\right)=\begin{cases}
+\infty & if\,lane\,i\,is\,blocked\,at\,time\,t\\
+\min\left\{ f\left(i-1,t-1\right),f\left(i+1,t-1\right),f\left(i,t-1\right)\right\}  & else
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $i=1$
+\end_inset
+
+,
+ 
+\begin_inset Formula $i=n$
+\end_inset
+
+,
+ נתעלם מהמיקומים הבעייתים,
+ כלומר הנתיב האפס או הנתיב ה
+\begin_inset Formula $n+1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+3
+\numeric off
+) הגדרת הטבלה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נגדיר טבלה בגודל 
+\begin_inset Formula $M\times n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $f\left(i,0\right)$
+\end_inset
+
+ נמלא לפי מקרה הבסיס,
+ לכל 
+\begin_inset Formula $t\in\left[M\right]$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+נעבור באיטרציה על 
+\begin_inset Formula $i\in\left[n\right]$
+\end_inset
+
+,
+ אם הנתיב ה
+\begin_inset Formula $i$
+\end_inset
+
+ חסום בזמן 
+\begin_inset Formula $t$
+\end_inset
+
+ אז 
+\begin_inset Formula $f\left(t,i\right)=\infty$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אחרת,
+ נחשב את 
+\begin_inset Formula $f\left(i,t\right)$
+\end_inset
+
+ לפי שלושת שכניו בשורה לפני כן לפי הנוסחה.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+4
+\numeric off
+) חילוץ הפתרון
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחפש את 
+\begin_inset Formula $t$
+\end_inset
+
+ המינימלי שבטבלה עבור הנתיב ה
+\begin_inset Formula $n$
+\end_inset
+
+ בזמן חוקי,
+ כלומר 
+\begin_inset Formula $\min\left\{ t:f\left(n,t\right)<\infty\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+5
+\numeric off
+) זמן ריצה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+גודל הטבלה הוא 
+\begin_inset Formula $O\left(n\cdot M\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכל תא נבדוק עבור שכניו ב
+\begin_inset Formula $O\left(1\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כלומר סיבוכיות המיקום וזמן הריצה הם 
+\begin_inset Formula $O\left(n\cdot M\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Subsection*
+(א)
+\end_layout
+
+\begin_layout Subsection*
+(ב)
+\end_layout
+
+\begin_layout Subsection*
+(ג)
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+(א)
+\end_layout
+
+\begin_layout Subsection*
+(ב)
+\end_layout
+
+\begin_layout Subsection*
+(ג)
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+(א)
+\end_layout
+
+\begin_layout Subsection*
+(ב)
+\end_layout
+
+\begin_layout Subsection*
+(ג)
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+(א)
+\end_layout
+
+\begin_layout Subsection*
+(ב)
+\end_layout
+
+\begin_layout Subsection*
+(ג)
+\end_layout
+
+\end_body
+\end_document
