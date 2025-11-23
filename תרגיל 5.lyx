@@ -664,15 +664,378 @@ f\left(i,t\right)=\begin{cases}
 \end_layout
 
 \begin_layout Subsection*
-(א)
+(
+\numeric on
+1
+\numeric off
+) תתי הבעיות
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $f\left(m,i\right)$
+\end_inset
+
+= משקל החלוקה המינימלי כאשר מחלקים רישא באורך 
+\begin_inset Formula $i$
+\end_inset
+
+ של 
+\begin_inset Formula $W$
+\end_inset
+
+,
+ ל
+\begin_inset Formula $m$
+\end_inset
+
+ תתי סדרות רציפות.
 \end_layout
 
 \begin_layout Subsection*
-(ב)
+(
+\numeric on
+2
+\numeric off
+) נוסחת הרקורסיה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מקרי בסיס - 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=1$
+\end_inset
+
+,
+ כלומר מחלקים לתת סדרה אחת,
+ זה כמובן פשוט הסכום של 
+\begin_inset Formula $W$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוסחת הרקורסיה - 
+\begin_inset Formula 
+\[
+f\left(m,i\right)=\min_{j=k-1}^{i-1}\left(\max f\left(m-1,j\right),\sum_{t=j+1}^{i}w_{t}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $i$
+\end_inset
+
+ מסמל איפה תת הסדרה תתחיל
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f\left(m-1,j\right)$
+\end_inset
+
+ הוא משקל החלוקה המינימלי ל
+\begin_inset Formula $m-1$
+\end_inset
+
+ תתי הסדרות ל
+\begin_inset Formula $j$
+\end_inset
+
+ האיברים הראשונים.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sum_{t=j+1}^{i}w_{t}$
+\end_inset
+
+ הוא משקל תת הסדרה האחרונה.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בעצם,
+ אנו בוחרים את המשקל המקסימלי של תת סדרה כאשר בחרנו 
+\begin_inset Formula $j$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ואנו בוחרים את 
+\begin_inset Formula $j$
+\end_inset
+
+ כך שייתן מינימום לתת הסדרה ה
+\begin_inset Quotes erd
+\end_inset
+
+כבדה
+\begin_inset Quotes erd
+\end_inset
+
+ ביותר.
 \end_layout
 
 \begin_layout Subsection*
-(ג)
+(
+\numeric on
+3
+\numeric off
+) הגדרת הטבלה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבנה טבלה של 
+\begin_inset Formula $m$
+\end_inset
+
+ על 
+\begin_inset Formula $n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ונמלא את הטבלה בסדר עולה באופן הבא,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $1\leqslant k\leqslant m$
+\end_inset
+
+ ואז 
+\begin_inset Formula $k\leqslant i\leqslant n$
+\end_inset
+
+,
+ כיוון שאם 
+\begin_inset Formula $k>i$
+\end_inset
+
+ זה לא מוגדר,
+ לא נוכל לחלק 
+\begin_inset Formula $3$
+\end_inset
+
+ איברים ל
+\begin_inset Formula $4$
+\end_inset
+
+ תתי סדרות למשל.
+
+\size scriptsize
+ (הידוע בכינויו עיקרון שובך היונים ההפוך).
+\end_layout
+
+\begin_layout Standard
+ונצטרך גם את הערך של הפונק' עם 
+\begin_inset Formula $k-1$
+\end_inset
+
+ על מנת למלא 
+\begin_inset Formula $k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נחשב תחילה את מקרה הבסיס,
+ 
+\begin_inset Formula $f\left(1,i\right)$
+\end_inset
+
+,
+ ולאחר מכן לכל 
+\begin_inset Formula $k\geqslant2$
+\end_inset
+
+,
+ 
+\end_layout
+
+\begin_layout Standard
+נרוץ על 
+\begin_inset Formula $1\leqslant j\leqslant k$
+\end_inset
+
+,
+ ונמלא לפי הנוסחה בעזרת 
+\begin_inset Formula $k-1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+4
+\numeric off
+) חילוץ הפתרון
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בשביל לחלץ את הפתרון נשמור בטבלה נוספת את 
+\begin_inset Formula $j$
+\end_inset
+
+ אותו מצאנו בנוסחה 
+\begin_inset Formula $f\left(m,i\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כאשר נסיים לרוץ,
+ נלך אחורנית,
+ ולכל 
+\begin_inset Formula $j$
+\end_inset
+
+ כזה,
+ נשמור את האיברים מ
+\begin_inset Formula $j+1$
+\end_inset
+
+ עד ל
+\begin_inset Formula $i$
+\end_inset
+
+,
+ זו תהיה תת סדרה אחת כזו.
+\end_layout
+
+\begin_layout Standard
+באופן כזה בכל פעם נקבל את תת הסדרה האחרונה שהתקבלה מהחלוקה,
+ ונשיג את החלוקה.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+5
+\numeric off
+) זמן ריצה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+סיבוכיות המקום היא 
+\begin_inset Formula $O\left(mn\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+זמן הריצה הוא 
+\begin_inset Formula $O\left(m\cdot n^{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מכיוון שאנו עוברים על כל כמות הבלוקים האפשרית,
+ מ
+\begin_inset Formula $1$
+\end_inset
+
+ עד 
+\begin_inset Formula $m$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ואז עוברים על גודל רישא,
+ מ
+\begin_inset Formula $1$
+\end_inset
+
+ עד 
+\begin_inset Formula $n$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+ואז גם עוברים על כל החלוקות האפשריות של 
+\begin_inset Formula $j$
+\end_inset
+
+ מ
+\begin_inset Formula $k-1$
+\end_inset
+
+ עד 
+\begin_inset Formula $i$
+\end_inset
+
+,
+ כלומר 
+\begin_inset Formula $n$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section*
