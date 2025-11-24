@@ -1039,12 +1039,146 @@ f\left(m,i\right)=\min_{j=k-1}^{i-1}\left(\max f\left(m-1,j\right),\sum_{t=j+1}^
 \end_layout
 
 \begin_layout Section*
-שאלה
+שאלת בונוס
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+1
+\numeric off
+) תתי הבעיות
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $f\left(i,j\right)$
+\end_inset
+
+= המספר המינימלי של פעולות כדי להפוך רישא בגודל 
+\begin_inset Formula $i$
+\end_inset
+
+ של 
+\begin_inset Formula $X$
+\end_inset
+
+ לרישא בגודל 
+\begin_inset Formula $j$
+\end_inset
+
+ של 
+\begin_inset Formula $Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+2
+\numeric off
+) נוסחת הרקורסיה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מקרי בסיס -
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f\left(0,j\right)=j$
+\end_inset
+
+,
+ פשוט נכניס את כל אותיות 
+\begin_inset Formula $j$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f\left(i,0\right)=i$
+\end_inset
+
+,
+ פשוט נמחק את כל אותיות 
+\begin_inset Formula $i$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ובאופן כללי 
+\begin_inset Formula 
+\[
+f\left(i,j\right)=\min\begin{cases}
+f\left(i-1,j\right)+1 & delete\,X\left[i-1\right]\\
+f\left(i,j-1\right)+1 & add\,Y\left[j-1\right]\\
+f\left(i-1,j-1\right) & X\left[i-1\right]=Y\left[j-1\right]\\
+f\left(i-1,j-1\right)+1 & else
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+3
+\numeric off
+) הגדרת הטבלה
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נגדיר טבלה של 
+\begin_inset Formula $\left(i+1\right)\times\left(j+1\right)$
+\end_inset
+
+,
+ מכיוון שנתחיל למלא לפי מקרי הבסיס,
+ 
+\begin_inset Formula $\left(0,0\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נמלא לפי שלושת הערכים משמאל למעלה ומאלכסון שמאלי למעלה,
+ ניקח את המינימום ונבדוק לפי נוסחת הרקורסיה אם נוסיף
 \family roman
-\series bold
-\shape smallcaps
-\size larger
+\series medium
+\shape up
+\size normal
 \emph off
+\nospellcheck off
 \bar no
 \strikeout off
 \xout off
@@ -1059,6 +1193,7 @@ f\left(m,i\right)=\min_{j=k-1}^{i-1}\left(\max f\left(m-1,j\right),\sum_{t=j+1}^
 \size default
 \emph default
 \numeric on
+\nospellcheck default
 \bar default
 \strikeout default
 \xout default
@@ -1066,66 +1201,158 @@ f\left(m,i\right)=\min_{j=k-1}^{i-1}\left(\max f\left(m-1,j\right),\sum_{t=j+1}^
 \uwave default
 \noun default
 \color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+או
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+4
+\numeric off
+) חילוץ הפתרון
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתחיל מ
+\begin_inset Formula $\left(m,n\right)$
+\end_inset
+
+ ונלך אחורנית בטבלה לפי הפעולה מהנוסחה,
+ אלכסון שמאלה למעלה אם לא קרה כלום או היה חילוף אות.
+\end_layout
+
+\begin_layout Standard
+למעלה אם מחקנו אות,
+ ושמאלה אם הכנסנו אות.
+\end_layout
+
+\begin_layout Standard
+כלומר נדע לאן ללכת לפי ההשוואות 
+\begin_inset Formula $f\left(m,n\right)$
+\end_inset
+
+ ל 
+\begin_inset Formula 
+\[
+f\left(m-1,n-1\right)+1,f\left(m-1,n-1\right),f\left(m-1,n\right)+1,f\left(m,n-1\right)+1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
 5
 \numeric off
- 
+) זמן ריצה
 \end_layout
 
-\begin_layout Subsection*
-(א)
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
-\begin_layout Subsection*
-(ב)
+\begin_layout Standard
+ממלאים טבלה בגודל 
+\begin_inset Formula $m\cdot n$
+\end_inset
+
+,
+ לכן ומילוי כל תא הוא ב
+\begin_inset Formula $O\left(1\right)$
+\end_inset
+
+,
+ לכן בסך הכול נקבל 
+\begin_inset Formula 
+\[
+O\left(mn\right)
+\]
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Subsection*
-(ג)
-\end_layout
+\begin_layout Standard
+סיבוכיות המקום היא גם 
+\begin_inset Formula $O\left(mn\right)$
+\end_inset
 
-\begin_layout Section*
-שאלה
-\family roman
-\series bold
-\shape smallcaps
-\size larger
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-6
-\numeric off
- 
-\end_layout
-
-\begin_layout Subsection*
-(א)
-\end_layout
-
-\begin_layout Subsection*
-(ב)
-\end_layout
-
-\begin_layout Subsection*
-(ג)
+,
+ לטבלה
 \end_layout
 
 \end_body
