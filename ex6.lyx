@@ -323,6 +323,13 @@ A=\left(\begin{matrix}-20 & -5 & 0\\
 \end_layout
 
 \begin_layout Section*
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
 שאלה
 \family roman
 \series bold
@@ -507,6 +514,13 @@ A=\left(\begin{matrix}-10 & -3 & -2\\
 
 ,
  מתקיימים האילוצים הנדרשים בשאלה.
+\end_layout
+
+\begin_layout Section*
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -978,6 +992,13 @@ s_{\left|E\right|}
 
  (בעיית תכנון לינארי בשלמים),
  כנדרש.
+\end_layout
+
+\begin_layout Section*
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
