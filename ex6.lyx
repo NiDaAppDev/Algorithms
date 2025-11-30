@@ -1,0 +1,1268 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children no
+\language hebrew
+\language_package default
+\inputencoding auto-legacy
+\fontencoding auto
+\font_roman "default" "David CLM"
+\font_sans "default" "David CLM"
+\font_typewriter "default" "David CLM"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "/home/nitzan-daloomy/Documents/MacrosStandard.lyx"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+אלגוריתמים | תרגיל בית מס'
+\family roman
+\shape up
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם:
+ תומר לוי | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+323961854
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם:
+ ניצן דלומי | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+212071914
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבחר:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=\left(\begin{matrix}-20 & -5 & 0\\
+0 & -2 & -5\\
+0 & 2 & 5\\
+100 & 1000 & 0
+\end{matrix}\right),b=\left(\begin{matrix}-40\\
+-10\\
+20\\
+2000
+\end{matrix}\right),c=\left(\begin{matrix}-25\\
+-15\\
+-40
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $x$
+\end_inset
+
+ הוא וקטור המייצג את מספר הגרמים שנקנו מכל אחד מסוגי האוכל,
+ כלומר:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ הוא מספר הגרמים שנקנו מפולי הסויה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x_{2}$
+\end_inset
+
+ הוא מספר הגרמים שנקנו מהחיטה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x_{3}$
+\end_inset
+
+ הוא מספר הגרמים שנקנו מהתבן
+\end_layout
+
+\begin_layout Standard
+נבחין כי גרמים לא יכולים להיות שליליים,
+ ולכן אכן מתקיים כי 
+\begin_inset Formula $\forall i\in\left[3\right]\,0\le x_{i}\Longrightarrow0\le x$
+\end_inset
+
+,
+ כנדרש.
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+ מהגדרת 
+\begin_inset Formula $A,b,c$
+\end_inset
+
+,
+ מתקיימים האילוצים הנדרשים בשאלה.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבחר:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=\left(\begin{matrix}-10 & -3 & -2\\
+10 & 3 & 2\\
+1.5 & 1 & 0\\
+0 & -14 & -8
+\end{matrix}\right),b=\left(\begin{matrix}-4\\
+8\\
+1\\
+-6
+\end{matrix}\right),c=\left(\begin{matrix}-20\\
+-6\\
+-4
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $x$
+\end_inset
+
+ הוא וקטור המייצג את חלוקת נושאי הבוחן,
+ כאשר סך הבוחן מיוצג כ-
+\numeric on
+1
+\numeric off
+,
+ וכל חלק יחסי לכלל הבוחן,
+ כלומר:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ הוא גודל החלק השייך לאלגוריתמים חמדניים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x_{2}$
+\end_inset
+
+ הוא גודל החלק השייך לתכנון דינמי
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x_{3}$
+\end_inset
+
+ הוא גודל החלק השייך לאלגוריתמי קירוב
+\end_layout
+
+\begin_layout Standard
+נבחין כי חלקים מהבוחן לא יכולים להיות שליליים - כל בחירה של חלק יחסי מהבוחן שנושא תופס יכולה להיות בין
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ל-
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+לכן אכן מתקיים כי 
+\begin_inset Formula $\forall i\in\left[3\right]\,0\le x_{i}\Longrightarrow0\le x$
+\end_inset
+
+,
+ כנדרש.
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+ מהגדרת 
+\begin_inset Formula $A,b,c$
+\end_inset
+
+,
+ מתקיימים האילוצים הנדרשים בשאלה.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+1
+\numeric off
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x=\left(1_{v_{i}\in S}\right)_{i=1}^{n},c=\left(1\right)_{i=1}^{n}\in\integer^{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אילוץ על 
+\begin_inset Formula $x$
+\end_inset
+
+:
+ 
+\begin_inset Formula $\forall i\in\left[n\right]\,x_{i}\in\left\{ 0,1\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+2
+\numeric off
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\forall i\ne j\in\left[n\right]\,\left(v_{i},v_{j}\right)\in E\Longrightarrow x_{i}+x_{j}\le1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר,
+ אם 
+\begin_inset Formula $\left(v_{i},v_{j}\right)\in E$
+\end_inset
+
+,
+ אזי או ש- 
+\begin_inset Formula $v_{i}\in S$
+\end_inset
+
+ או ש-
+\begin_inset Formula $v_{j}\in S$
+\end_inset
+
+ ( או אקסקלוסיבי),
+ ולכן סכום המשתנה המציין
+\end_layout
+
+\begin_layout Standard
+האם 
+\begin_inset Formula $v_{i}\in S$
+\end_inset
+
+ והמשתנה המציין האם 
+\begin_inset Formula $v_{j}\in S$
+\end_inset
+
+ לא יכול לעלות על
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+3
+\numeric off
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+האילוץ מסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+לכל צלע 
+\begin_inset Formula $e_{i}=\left(v_{k},v_{l}\right)\in E$
+\end_inset
+
+,
+ נגדיר את הוקטור 
+\begin_inset Formula $a_{i}=\left(1_{j\in\left\{ k,l\right\} }\right)_{j=1}^{\left|V\right|}$
+\end_inset
+
+,
+ ואת המספר 
+\begin_inset Formula $s_{i}=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בכך,
+ אנו חוסמים את החסם שהוגדר בסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נבחין כי החסם שהוגדר בסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+משיג גם את האילוץ מסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+,
+ שכן מהגדרה 
+\begin_inset Formula $\forall i\in\left[\left|V\right|\right]\,0\le x_{i}\in\integer$
+\end_inset
+
+,
+ והחסם מסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+משיג לנו שבהכרח גם החסם 
+\begin_inset Formula $\forall i\in\left[\left|V\right|\right]\,x_{i}\le1$
+\end_inset
+
+ מתקיים,
+ כנדרש באילוץ שנכתב בסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+4
+\numeric off
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=\left(\begin{matrix}a_{1}\\
+\vdots\\
+a_{\left|E\right|}
+\end{matrix}\right)\in M_{\left|E\right|\times\left|V\right|}\left(\integer\right),b=\left(\begin{matrix}s_{1}\\
+\vdots\\
+s_{\left|E\right|}
+\end{matrix}\right)=\left(\begin{matrix}1\\
+\vdots\\
+1
+\end{matrix}\right)\in\integer^{\left|E\right|},c=\left(1\right)_{i=1}^{n}\in\integer^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $x\in\left\{ 0,1\right\} ^{\left|V\right|}\in\integer^{\left|V\right|}$
+\end_inset
+
+,
+ ולכן זוהי בעיית 
+\begin_inset Formula $ILP$
+\end_inset
+
+ (בעיית תכנון לינארי בשלמים),
+ כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $x_{i}^{-}=\max\left(0,-x_{i}\right),x_{i}^{+}=\max\left(0,x_{i}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נבחין כי מתקיים 
+\begin_inset Formula $x_{i}=x_{i}^{+}-x_{i}^{-}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כעת,
+ נוכיח את הטענה כי לכל פתרון חוקי 
+\begin_inset Formula $x$
+\end_inset
+
+ לבעיית התכנון הלינארי קיים פתרון חוקי 
+\begin_inset Formula $\hat{x}$
+\end_inset
+
+ לבעיה השניה התנותה בשאלה כך
+\end_layout
+
+\begin_layout Standard
+שמתקיים:
+ 
+\begin_inset Formula $c^{T}x=\hat{c}^{T}\hat{x}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נגדיר את 
+\begin_inset Formula $\hat{x}$
+\end_inset
+
+ כדלהלן:
+ 
+\begin_inset Formula $\hat{x}=\left(x_{1},\ldots,x_{i-1},x_{i}^{+},x_{i}^{-},x_{i+1},\ldots,x_{n}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+ נסמן ב-
+\begin_inset Formula $A_{i}$
+\end_inset
+
+ את העמודה ה-
+\begin_inset Formula $i$
+\end_inset
+
+ ב-
+\begin_inset Formula $A$
+\end_inset
+
+ ונגדיר:
+ 
+\begin_inset Formula $A_{i}^{-}=\left(\begin{matrix}\max\left(0,-A_{1,i}\right)\\
+\vdots\\
+\max\left(0,-A_{m,i}\right)
+\end{matrix}\right),A_{i}^{+}=\left(\begin{matrix}\max\left(0,A_{1,i}\right)\\
+\vdots\\
+\max\left(0,A_{m,i}\right)
+\end{matrix}\right),c_{i}^{-}=\max\left(0,-c_{i}\right),c_{i}^{+}=\max\left(0,c_{i}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ עבור הוקטור הנ
+\begin_inset Quotes erd
+\end_inset
+
+ל,
+ נבחר:
+\begin_inset Formula 
+\begin{align*}
+ & \hat{A}=\left(\begin{matrix}A_{1} & \cdots & A_{i-1} & A_{i}^{+} & -A_{i}^{-} & A_{i+1} & \cdots & A_{n}\end{matrix}\right)\in M_{m\times\left(n+1\right)}\left(\real\right)\\
+ & \hat{b}=b\\
+ & \hat{c}=\left(\begin{matrix}c_{1}\\
+\vdots\\
+c_{i-1}\\
+c_{i}^{+}\\
+c_{i}^{-}\\
+c_{i+1}\\
+\vdots\\
+c_{n}
+\end{matrix}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כך קיבלנו וקטור המכיל את אותו ה
+\begin_inset Quotes erd
+\end_inset
+
+מידע
+\begin_inset Quotes erd
+\end_inset
+
+ שמכיל הפתרון 
+\begin_inset Formula $x$
+\end_inset
+
+,
+ אך האינדקס ה-
+\begin_inset Formula $i$
+\end_inset
+
+ בו פורק לרכיביו,
+ כדי לוודא שהפתרון החדש
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{x}$
+\end_inset
+
+ מכיל איברים חיוביים בודאות במקום 
+\begin_inset Formula $x_{i}$
+\end_inset
+
+,
+ שלא כמו 
+\begin_inset Formula $x_{i}$
+\end_inset
+
+ שעשוי להיות שלילי.
+\end_layout
+
+\begin_layout Standard
+נוכל לחזור על 
+\begin_inset Quotes eld
+\end_inset
+
+פירוק
+\begin_inset Quotes erd
+\end_inset
+
+ זה של הקואורדינטה ה-
+\begin_inset Formula $i$
+\end_inset
+
+ לכל אחת מהקואורדינטות של 
+\begin_inset Formula $x$
+\end_inset
+
+ המקורי,
+ כך שנקבל 
+\begin_inset Formula $\hat{x}$
+\end_inset
+
+ סופי שאורכו 
+\begin_inset Formula $2n$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+שכן הוא מכיל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+את שני רכיביו של כל אחד מערכי קואורדינטה ב-
+\begin_inset Formula $x$
+\end_inset
+
+,
+ ויתקיים כי 
+\begin_inset Formula $\forall i\in\left[2n\right]\,0\le\hat{x}_{i}$
+\end_inset
+
+ בודאות,
+ מבלי שדרשנו
+\end_layout
+
+\begin_layout Standard
+זאת עבור 
+\begin_inset Formula $x$
+\end_inset
+
+ עצמו.
+\end_layout
+
+\begin_layout Standard
+חישוב מהיר יראה כי ההגדרות שנתנו ישמרו את אותן הדרישות ואותו הפתרון בסופו של דבר,
+ ולכן לא שינינו דבר מלבד לאפשר
+\end_layout
+
+\begin_layout Standard
+לוקטור הפתרון להיות גם לא אי-שלילי.
+\end_layout
+
+\begin_layout Standard
+באופן דומה יכולנו לעשות את המהלך ההפוך,
+ ולאגד את הרכיבים שהוספנו,
+ כל זוג 
+\begin_inset Formula $+,-$
+\end_inset
+
+ לכדי רכיב אחד,
+ וכך לקבל את הבעיה המקורית.
+\end_layout
+
+\end_body
+\end_document
