@@ -1,0 +1,1947 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children no
+\language hebrew
+\language_package default
+\inputencoding auto-legacy
+\fontencoding auto
+\font_roman "default" "David"
+\font_sans "default" "David"
+\font_typewriter "default" "David"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "../MacrosStandard.lyx"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+אלגוריתמים | תרגיל בית מס'
+\family roman
+\shape up
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+8
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם:
+ תומר לוי | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+323961854
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם:
+ ניצן דלומי | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+212071914
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+האלגוריתם
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+קלט
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+גרף מכוון 
+\begin_inset Formula $G=\left(V,E\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+פלט
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+בחירת צלעות בגרף שהיא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $-2$
+\end_inset
+
+
+\numeric off
+מקרבת לתת הקבוצה של צלעות מגודל מקסימלי מחוסרת המעגלים.
+\end_layout
+
+\begin_layout Enumerate
+נמספר את הקודקודים באקראי:
+ 
+\begin_inset Formula $V=v_{1},\ldots,v_{2}$
+\end_inset
+
+ ונאתחל את 
+\begin_inset Formula $S_{1},S_{2}=\emptyset$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+נעבור על הקודקודים לפי הסדר,
+ ולכל קודקוד נוסיף את כל הצלעות היוצאות ממנו לקודקודים שבאים אחריו (באינדקס) ל-
+\begin_inset Formula $S_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+נעבור על הקודקודים מהסוף להתחלה,
+ ולכל קודקוד נוסיף את כל הצלעות היוצאות ממנו לקודקודים שבאים לפניו (באינדקס) ל-
+\begin_inset Formula $S_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+נחזיר את 
+\begin_inset Formula $argmax_{S\in\left\{ S_{1},S_{2}\right\} }\left\{ \left|S\right|\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+האלגוריתם יחזיר קבוצת צלעות מהגרף הנתון,
+ ולכן הפתרון הוא אכן חוקי.
+\end_layout
+
+\begin_layout Standard
+נבחין כי האלגוריתם עובר על כל הצלעות בשני הכיוונים,
+ ובכך 
+\begin_inset Quotes eld
+\end_inset
+
+מכסה
+\begin_inset Quotes erd
+\end_inset
+
+ את כלל צלעות הגרף (
+\begin_inset Formula $E$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ 
+\begin_inset Formula $S_{1}\cup S_{2}=E\land S_{1}\cap S_{2}=\emptyset\Longrightarrow\left|S_{1}\right|+\left|S_{2}\right|=\left|E\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן,
+ אם נסמן את הפתרון שמחזיר האלגוריתם שלנו ב-
+\begin_inset Formula $S$
+\end_inset
+
+,
+ מתקיים:
+ 
+\begin_inset Formula 
+\[
+\left|S\right|=\left|argmax_{S\in\left\{ S_{1},S_{2}\right\} }\left\{ \left|S\right|\right\} \right|\ge\frac{\left|S_{1}\right|+\left|S_{2}\right|}{2}=\frac{\left|E\right|}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר,
+ האלגוריתם אכן 
+\begin_inset Formula $-2$
+\end_inset
+
+מקרב,
+ כנדרש.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+זמן ריצה
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+כפי שאמרנו,
+ האלגוריתם עובר על כלל הצלעות בגרף,
+ ופעמיים על כל קודקוד,
+ ולכן רץ ב-
+\begin_inset Formula $\boxed{O\left(\left|V\right|+\left|E\right|\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+האלגוריתם
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+קלט
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+נוסחת 
+\begin_inset Formula $5-CNF$
+\end_inset
+
+ שכל פסוקית בה 
+\begin_inset Formula $c$
+\end_inset
+
+ מייצגת סקר של אדם יחיד,
+ וכל 
+\begin_inset Formula $x\in c$
+\end_inset
+
+ מייצג חטיף.
+\end_layout
+
+\begin_layout Standard
+כלומר,
+\begin_inset Formula $x_{1}\ldots,x_{n}$
+\end_inset
+
+ מייצגים את החטיפים שברשות החברה (
+\begin_inset Formula $x_{i}$
+\end_inset
+
+ מייצג האם הלקוח בחר את הגרסה הדלת נתרן)
+\end_layout
+
+\begin_layout Standard
+,
+ 
+\begin_inset Formula $ו-c_{1},\ldots,c_{m}$
+\end_inset
+
+ מייצגים את הבחירות של m הלקוחות.
+\end_layout
+
+\begin_layout Standard
+למשל,
+ אם הלקוח ה-i בחר את החטיפים ה-
+\begin_inset Formula $x_{j},x_{j+1}$
+\end_inset
+
+ בגרסה דלת הנתרן,
+ את החטיפים ה-
+\begin_inset Formula $x_{j+2},x_{j+3}$
+\end_inset
+
+ בגרסה הרגילה,
+ ואת החטיף ה-
+\begin_inset Formula $x_{j+4}$
+\end_inset
+
+ לא משנה לו,
+ הפסוקית
+\end_layout
+
+\begin_layout Standard
+שלו תהיה:
+ 
+\begin_inset Formula $c_{i}=\left(x_{j},x_{j+1},\lnot x_{j+2},\lnot x_{j+3},\mathbb{T}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+פלט
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+השמה 
+\begin_inset Formula $v\in\left\{ \mathbb{T},\mathbb{F}\right\} ^{n}$
+\end_inset
+
+ שהיא 
+\begin_inset Formula $-2$
+\end_inset
+
+מקרבת לריצוי מספר האנשים המקסימלי מממלאי הסקר.
+\end_layout
+
+\begin_layout Enumerate
+נגדיר 
+\begin_inset Formula $v_{\mathbb{F}}=\left(\mathbb{F},\ldots,\mathbb{F}\right),v_{\mathbb{T}}=\left(\mathbb{T},\ldots,\mathbb{T}\right)\in\left\{ \mathbb{T},\mathbb{F}\right\} ^{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+נחשב את מספר הפסוקיות שמסופקת ע“י כל אחת מההשמות,
+ ונחזיר את ההשמה המספקת יותר פסוקיות
+\end_layout
+
+\begin_layout Standard
+ 
+\end_layout
+
+\begin_layout Standard
+נבחין כי הוכחנו כי אלגוריתם זה הוא 
+\begin_inset Formula $-2$
+\end_inset
+
+מקרב בתרגול (אין שם התייחסות לאורך הפסוקית,
+ כפי שצויין בהערה 
+\begin_inset Formula $1.4$
+\end_inset
+
+ שבתרגול ,
+ ולכן ההוכחה חלה גם כאן).
+\end_layout
+
+\begin_layout Standard
+האלגוריתם חוקי שכן הוא מחזיר וקטור שקובע לכל חטיף האם יהיה דל נתרן (
+\begin_inset Formula $\mathbb{T}$
+\end_inset
+
+) או רגיל (
+\begin_inset Formula $\mathbb{F}$
+\end_inset
+
+).
+ אם כן,
+ הוכחנו את נכונות האלגוריתם.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+זמן ריצה
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+נבחין כי מתקיים 
+\begin_inset Formula $n\le5m=O\left(m\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כל השמה v דורשת 
+\begin_inset Formula $n=O\left(m\right)$
+\end_inset
+
+,
+ ובדיקת כל השמה דורשת 
+\begin_inset Formula $O\left(m\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ סך זמן הריצה הדרוש לאלגוריתם הוא:
+ 
+\begin_inset Formula $2\cdot O\left(m\right)+2\cdot O\left(m\right)=4\cdot O\left(m\right)=\boxed{O\left(m\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+
+\begin_inset Formula $i$
+\end_inset
+
+
+\numeric off
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ישנם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+משתנים בכל פסוקית,
+ כאשר כל אחד מהם יכול לקבל ערך אמת או שקר.
+\end_layout
+
+\begin_layout Standard
+הפסוקית תקבל ערך שקר במצב יחיד,
+ וזהו המצב בו כל המשתנים שבה יקבלו את הערך שקר.
+\end_layout
+
+\begin_layout Standard
+ההסתברות למצב זה הנה 
+\begin_inset Formula $\left(\frac{1}{2}\right)^{5}=\frac{1}{32}$
+\end_inset
+
+,
+ ולכן ההסתברות לקבלת ערך אמת בפסוקית הנה 
+\begin_inset Formula $\frac{31}{32}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+האלגוריתם יחזיר תשובה רק כאשר התנאי (ההשמה 
+\begin_inset Formula $v$
+\end_inset
+
+ שהתקבלה מספקת לפחות 
+\begin_inset Formula $\frac{31m}{32}$
+\end_inset
+
+ פסוקיות,
+ כאשר יש סך של 
+\begin_inset Formula $m$
+\end_inset
+
+ פסוקיות) מתקיים.
+\end_layout
+
+\begin_layout Standard
+לכן,
+ האלגוריתם הינו 
+\begin_inset Formula $\boxed{\frac{32}{31}}$
+\end_inset
+
+-מקרב.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+
+\begin_inset Formula $ii$
+\end_inset
+
+
+\numeric off
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+על ההשמה שהגרלנו לספק לפחות 
+\begin_inset Formula $\boxed{\frac{31m}{32}}$
+\end_inset
+
+ פסוקיות כדי לוודא שהאלגוריתם שלנו הוא 
+\begin_inset Formula $\frac{32}{31}$
+\end_inset
+
+-מקרב.
+\end_layout
+
+\begin_layout Subsection*
+(
+\numeric on
+
+\begin_inset Formula $iii$
+\end_inset
+
+
+\numeric off
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כדי שהאלגוריתם יצליח בסיכוי של 
+\begin_inset Formula $1-\frac{1}{e^{k}}$
+\end_inset
+
+,
+ נחזור על האלגוריתם הבסיסי 
+\begin_inset Formula $\boxed{\left(m+1\right)k}$
+\end_inset
+
+ פעמים.
+\end_layout
+
+\begin_layout Section*
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+האלגוריתם
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+קלט
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+גרף לא מכוון 
+\begin_inset Formula $G=\left(V,E\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+פלט
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+פונקציית צביעה 
+\begin_inset Formula $\mathcal{X}:V\to\left\{ 1,2,3\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+לכל קודקוד בגרף נגריל באקראי צבע מתוך 
+\begin_inset Formula $\left\{ 1,2,3\right\} $
+\end_inset
+
+ בהסתברות שווה (
+\begin_inset Formula $\frac{1}{3}$
+\end_inset
+
+ לכל צבע)
+\end_layout
+
+\begin_layout Enumerate
+אם הפונקציה שקיבלנו מקיימת 
+\begin_inset Formula $\left|\left\{ \left\{ u,v\right\} \in E\lvert\mathcal{X}\left(u\right)\ne\mathcal{X}\left(v\right)\right\} \right|\ge\frac{2\left|E\right|}{3}$
+\end_inset
+
+ צלעות,
+ נחזיר אותה,
+ אחרת נחזיר כי האלגוריתם נכשל.
+\end_layout
+
+\begin_layout Enumerate
+נחזור על האלגוריתם שתואר לעיל 
+\begin_inset Formula $ $
+\end_inset
+
+ פעמים באופן בלתי תלוי.
+ אם באחת הריצות היתה הצלחה,
+ נחזיר את הפונקציה שהתקבלה.
+ אחרת,
+ נחזיר כישלון.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+האלגוריתם מחזיר כפתרון פונקציית צביעה 
+\begin_inset Formula $\mathcal{X}:V\to\left\{ 1,2,3\right\} $
+\end_inset
+
+ תקינה,
+ ולכן חוקי.
+\end_layout
+
+\begin_layout Standard
+בהנתן שהוחזר פתרון,
+ ממש מהגדרת האלגוריתם,
+ נחזירו רק כאשר הוא 
+\begin_inset Formula $\frac{3}{2}$
+\end_inset
+
+-מקרב,
+ ולכן נוכל להתחייב על כך שאכן הפתרון המוחזר הוא-
+\begin_inset Formula $\frac{3}{2}$
+\end_inset
+
+-מקרב אם
+\end_layout
+
+\begin_layout Standard
+אכן הוחזר פתרון.
+\end_layout
+
+\begin_layout Standard
+לכל צלע 
+\begin_inset Formula $\left\{ u,v\right\} =e_{i}\in E$
+\end_inset
+
+ נגדיר משתנה מקרי 
+\begin_inset Formula $X_{i}$
+\end_inset
+
+ מציין האם קודקודי הצלע שונים זה מזה בצבעם (ואז ערכו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+) או לא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+(ואז ערכו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+).
+\end_layout
+
+\begin_layout Standard
+נגדיר משתנה מקרי 
+\begin_inset Formula $X=\sum_{i=1}^{\left|E\right|}X_{i}$
+\end_inset
+
+ שהוא מספר הצלעות בגרף שקודקודיהן שונים זה מזה בצבעם.
+\end_layout
+
+\begin_layout Standard
+נבחין כי לכל 
+\begin_inset Formula $i\in\left|E\right|$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $\probability\left(X_{i}=1\right)=\frac{2}{3}$
+\end_inset
+
+,
+ שכן ההסתברות לכך ששני קודקודי הצלע הם באותו הצבע היא 
+\begin_inset Formula $\left(\frac{1}{3}\right)^{2}=\frac{1}{9}$
+\end_inset
+
+ לכל צבע,
+ וישנם
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+צבעים,
+ לכן סך ההסתברות לכך ששני קודקודי הצלע הם בעלי אותו צבע היא 
+\begin_inset Formula $3\cdot\frac{1}{9}=\frac{1}{3}$
+\end_inset
+
+,
+ ו-
+\begin_inset Formula $X_{i}=1$
+\end_inset
+
+ הוא המאורע המשלים למאורע זה,
+ לכן
+\end_layout
+
+\begin_layout Standard
+הסתברותו היא 
+\begin_inset Formula $1-\frac{1}{3}=\frac{2}{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נגדיר משתנה מקרי 
+\begin_inset Formula $Y=\left|E\right|-X$
+\end_inset
+
+,
+ כלומר מספר הצלעות שקודקודיהן בעלי אותו הצבע.
+\end_layout
+
+\begin_layout Standard
+מתקיים:
+\begin_inset Formula 
+\[
+\Ex\left(Y\right)=\Ex\left(\left|E\right|-X\right)=\left|E\right|-\Ex\left(\sum_{i=1}^{\left|E\right|}X_{i}\right)\exeq{\text{מלינאריות התוחלת}}\left|E\right|-\sum_{i=1}^{\left|E\right|}\Ex\left(X_{i}\right)\exeq{\text{תוחלת של משתנה מקרי מציין}}\left|E\right|-\sum_{i=1}^{\left|E\right|}\frac{2}{3}=\left|E\right|-\frac{2\left|E\right|}{3}=\frac{\left|E\right|}{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומכך ומאי שוויון מרקוב נובע כי מתקיים:
+\begin_inset Formula 
+\begin{align*}
+ & \probability\left(\frac{\left|E\right|}{3}<Y\right)=\probability\left(\frac{\left|E\right|+1}{3}\le Y\right)=\probability\left(\Ex\left(Y\right)\left(1+\frac{1}{3\Ex\left(Y\right)}\right)\le Y\right)=\probability\left(\Ex\left(X\right)\left(1+\frac{1}{\left|E\right|}\right)\le Y\right)\exle{\text{אי שוויון מרקוב}}\\
+ & \le\frac{1}{1+\frac{1}{\left|E\right|}}=\frac{\left|E\right|}{\left|E\right|+1}=
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן,
+ סיכוי ההצלחה של האלגוריתם הבסיסי הוא לפחות 
+\begin_inset Formula $\frac{1}{\left|E\right|+1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+חזרה על האלגוריתם 
+\begin_inset Formula $k\left(\left|E\right|+1\right)$
+\end_inset
+
+ פעמים תבטיח כי סיכוי ההצלחה הוא לפחות 
+\begin_inset Formula $1-\frac{1}{e^{k}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $i\in\left[m\right]$
+\end_inset
+
+ נסמן ב-
+\begin_inset Formula $H_{i}$
+\end_inset
+
+ את בית האצולה ה-
+\begin_inset Formula $i$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כעת,
+ לכל 
+\begin_inset Formula $j\in\left[N\right]$
+\end_inset
+
+ נסמן ב-
+\begin_inset Formula $N_{j}$
+\end_inset
+
+ את האציל ה-
+\begin_inset Formula $j$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נתאר את הבעיה כבעיית תכנון לינארי בשלמים (
+\begin_inset Formula $ILP$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & x\in\left\{ 0,1\right\} ^{N}\\
+ & c=\left(\begin{matrix}-1\\
+\vdots\\
+-1
+\end{matrix}\right)\in\integer^{N}\\
+ & \forall i\in\left[m\right],j\in\left[N\right]\,A_{i,j}=\begin{cases}
+-1 & Nj\in H_{i}\\
+0 & otherwise
+\end{cases}\\
+ & b=\left(\begin{matrix}-1\\
+\vdots\\
+-1
+\end{matrix}\right)\in\integer^{m}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבחין כי 
+\begin_inset Formula $\max c^{T}x=\min\left(-c\right)^{T}x$
+\end_inset
+
+ משיג לנו את הפתרון שבו בחרנו את מספר האצילים הקטן ביותר מבין כל הפתרונות החוקיים,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x\in\left\{ 0,1\right\} ^{N}$
+\end_inset
+
+ כאשר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מייצג שבחרנו את האציל באינדקס המתאים,
+ ו-
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מייצג שלא בחרנו את האציל באינדקס המתאים,
+ והפתרון מקיים
+\end_layout
+
+\begin_layout Standard
+את אילוץ בחירת אציל מכל בית אצולה בעזרת כפל שורה במטריצה (המייצגת בדיקה על כל אצילי בית אצולה מסויים) בוקטור הפתרון (המייצג
+\end_layout
+
+\begin_layout Standard
+את בחירת האצילים) המחזירה את מספר האצילים שבחרנו מבית האצולה המתאים לשורה,
+ ו
+\begin_inset Formula $b$
+\end_inset
+
+ מחייב אותו להיות גדול מ-
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+(בחרנו 
+\numeric on
+-1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+במטריצה 
+\begin_inset Formula $A$
+\end_inset
+
+ כמו גם
+\end_layout
+
+\begin_layout Standard
+ב-
+\begin_inset Formula $b$
+\end_inset
+
+ כדי להפוך את אי השוויון המקובל בבעיות 
+\begin_inset Formula $ILP$
+\end_inset
+
+ ו-
+\begin_inset Formula $LP$
+\end_inset
+
+,
+ שכן עלינו לוודא שישנו 
+\series bold
+לפחות
+\series default
+ אציל אחד מכל בית אצולה,
+ ולא לכל היותר אציל אחד.
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ תיאור הבעיה שלנו מוודא שמירה על אילוציה ועל חוקיות הפתרון,
+ כנדרש.
+\end_layout
+
+\begin_layout Standard
+כעת,
+ נעשה לה רילקסציה כדלהלן:
+\end_layout
+
+\begin_layout Standard
+נשנה את האילוץ על הפתרון להיות 
+\begin_inset Formula $x\in\left[0,1\right]^{N}$
+\end_inset
+
+,
+ כלומר בממשיים.
+\end_layout
+
+\begin_layout Standard
+נציע את האלגוריתם הבא:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+קלט
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+קבוצות בתי אצילים 
+\begin_inset Formula $H_{1},\ldots,H_{m}$
+\end_inset
+
+ וקבוע 
+\begin_inset Formula $1<C$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+פלט
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+קבוצה 
+\begin_inset Formula $A\subseteq N$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $\forall i\in\left[m\right]\,A\cap H_{i}\ne\emptyset$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+נפתור את ה-
+\begin_inset Formula $LP$
+\end_inset
+
+ ונקבל פתרון שברי 
+\begin_inset Formula $x^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+לכל 
+\begin_inset Formula $i\in\left[N\right]$
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+נגדיר 
+\begin_inset Formula $p_{i}=\min\left\{ 1,C\cdot x_{i}^{*}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+בהסתברות 
+\begin_inset Formula $p_{i}$
+\end_inset
+
+ נכלול את 
+\begin_inset Formula $N_{i}$
+\end_inset
+
+ ב-
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+אם 
+\begin_inset Formula $A$
+\end_inset
+
+ מקיימת 
+\begin_inset Formula $\forall i\in\left[m\right]\,A\cap H_{i}\ne\emptyset$
+\end_inset
+
+,
+ נחזיר את 
+\begin_inset Formula $A$
+\end_inset
+
+,
+ אחרת נחזיר כישלון.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ראשית,
+ אם הפתרון לא נכשל,
+ הוא מחזיר קבוצה 
+\begin_inset Formula $A\subseteq N$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $\forall i\in\left[m\right]\,A\cap H_{i}\ne\emptyset$
+\end_inset
+
+,
+ ולכן זהו אכן פתרון חוקי.
+\end_layout
+
+\begin_layout Standard
+נסמן את 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ להיות המאורע שבו קיים בית אצולה 
+\begin_inset Formula $j\in\left[m\right]$
+\end_inset
+
+ שלא נבחר ממנו אף נציג בקבוצה 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ מתקיים:
+\begin_inset Formula 
+\[
+\probability\left(X_{j}=1\right)=\prod_{i:N_{i}\in H_{j}}\probability\left(N_{i}\notin A\right)=\prod_{i:N_{i}\in H_{j}}\left(1-p_{i}\right)\le\prod_{i:N_{i}\in H_{j}}exp\left(-p_{i}\right)=exp\left(-\sum_{i:N_{i}\in H_{j}}p_{i}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבחין כי לכל 
+\begin_inset Formula $N_{j}$
+\end_inset
+
+ שלא נבחר מתקיים 
+\begin_inset Formula $p_{i}=5\cdot x_{i}^{*}<1$
+\end_inset
+
+,
+ שכן אחרת היה נבחר בודאות ל-
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן,
+ לכל 
+\begin_inset Formula $i$
+\end_inset
+
+ המקיים 
+\begin_inset Formula $N_{i}\in H_{j}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $p_{i}=5\cdot x_{i}^{*}<1$
+\end_inset
+
+,
+ ובפרט נקבל:
+\begin_inset Formula 
+\[
+\sum_{i:N_{i}\in H_{j}}p_{i}=C\cdot\sum_{i:N_{i}\in H_{j}}x_{i}^{*}\ge C\cdot1=C
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר אי השוויון נובע מהאילוץ כי לכל בית אצולה (ובפרט גם ל-
+\begin_inset Formula $H_{j}$
+\end_inset
+
+) נבחר נציג אחד לפחות,
+ ועל כן 
+\begin_inset Formula $1\le\sum_{i:N_{i}\in H_{j}}x_{i}^{*}$
+\end_inset
+
+ (האילוץ גם נוסח כבעיית 
+\begin_inset Formula $ILP$
+\end_inset
+
+ קודם לכן).
+\end_layout
+
+\begin_layout Standard
+אם כן:
+ 
+\begin_inset Formula $\probability\left(X_{j}=1\right)=e^{-C}=\frac{1}{e^{C}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן מתקיים:
+\begin_inset Formula 
+\[
+\Ex\left(\sum_{j\in\left[m\right]}X_{j}\right)\exeq{\text{מלינאריות התוחלת}}\sum_{j\in\left[m\right]}\Ex\left(X_{j}\right)=\sum_{j\in\left[m\right]}\probability\left(X_{j}=1\right)=\sum_{j\in\left[m\right]}\frac{1}{e^{C}}=\frac{m}{e^{C}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כיוצא בזאת ובאי שוויון מרקוב נקבל כי מתקיים:
+\begin_inset Formula 
+\[
+\probability\left(1\le\sum_{j\in\left[m\right]}X_{j}\right)\le\frac{m}{e^{C}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר סיכוי הכישלון של האלגוריתם הוא לכל היותר 
+\begin_inset Formula $\frac{m}{e^{C}}$
+\end_inset
+
+,
+ ולכן סיכוי ההצלחה שלו הוא לכל הפחות 
+\begin_inset Formula $1-\frac{m}{e^{C}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם כן,
+ נגדיר 
+\begin_inset Formula $C$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
